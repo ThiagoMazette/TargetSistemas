@@ -53,7 +53,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Digite um número (1 até 9999):";
+            this.label1.Text = "Digite um número (0 até 9999):";
             // 
             // txtmskNumero
             // 
@@ -61,14 +61,14 @@
             this.txtmskNumero.Mask = "0000";
             this.txtmskNumero.Name = "txtmskNumero";
             this.txtmskNumero.Size = new System.Drawing.Size(45, 20);
-            this.txtmskNumero.TabIndex = 3;
+            this.txtmskNumero.TabIndex = 1;
             // 
             // btnVerificar
             // 
             this.btnVerificar.Location = new System.Drawing.Point(245, 140);
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(90, 31);
-            this.btnVerificar.TabIndex = 4;
+            this.btnVerificar.TabIndex = 2;
             this.btnVerificar.Text = "Verificar";
             this.btnVerificar.UseVisualStyleBackColor = true;
             this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
