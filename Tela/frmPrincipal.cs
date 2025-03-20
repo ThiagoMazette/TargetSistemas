@@ -27,5 +27,11 @@ namespace TargetSistemas
             frmExercicio4 _f = new frmExercicio4();
             _f.ShowDialog();
         }
+
+        private void btnExercicio5_Click(object sender, EventArgs e)
+        {
+            frmExercicio5 _f = new frmExercicio5();
+            _f.ShowDialog();
+        }
     }
 }

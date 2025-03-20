@@ -49,10 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmExercicio4.cs">
+    <Compile Include="frmExercicio5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmExercicio4.Designer.cs">
+    <Compile Include="frmExercicio5.Designer.cs">
+      <DependentUpon>frmExercicio5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela\frmExercicio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela\frmExercicio4.Designer.cs">
       <DependentUpon>frmExercicio4.cs</DependentUpon>
     </Compile>
     <Compile Include="Modelo\mdlExercicio3.cs" />
@@ -76,7 +82,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmExercicio4.resx">
+    <EmbeddedResource Include="frmExercicio5.resx">
+      <DependentUpon>frmExercicio5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela\frmExercicio4.resx">
       <DependentUpon>frmExercicio4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela\frmExercicio3.resx">
