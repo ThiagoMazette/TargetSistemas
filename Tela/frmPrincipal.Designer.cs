@@ -32,6 +32,7 @@
             this.btnExercicio2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnExercicio3 = new System.Windows.Forms.Button();
+            this.btnExercicio4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExercicio2
@@ -61,18 +62,28 @@
             this.btnExercicio3.Text = "Exercício 3";
             this.btnExercicio3.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // btnExercicio4
+            // 
+            this.btnExercicio4.Location = new System.Drawing.Point(12, 314);
+            this.btnExercicio4.Name = "btnExercicio4";
+            this.btnExercicio4.Size = new System.Drawing.Size(101, 39);
+            this.btnExercicio4.TabIndex = 3;
+            this.btnExercicio4.Text = "Exercício 4";
+            this.btnExercicio4.UseVisualStyleBackColor = true;
+            // 
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(329, 450);
+            this.Controls.Add(this.btnExercicio4);
             this.Controls.Add(this.btnExercicio3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnExercicio2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Inicial";
             this.ResumeLayout(false);
@@ -85,6 +96,7 @@
         private System.Windows.Forms.Button btnExercicio2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnExercicio3;
+        private System.Windows.Forms.Button btnExercicio4;
     }
 }
 

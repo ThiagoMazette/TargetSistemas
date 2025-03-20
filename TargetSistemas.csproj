@@ -49,33 +49,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmExercicio3.cs">
+    <Compile Include="frmExercicio4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmExercicio3.Designer.cs">
+    <Compile Include="frmExercicio4.Designer.cs">
+      <DependentUpon>frmExercicio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\mdlExercicio3.cs" />
+    <Compile Include="Tela\frmExercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela\frmExercicio3.Designer.cs">
       <DependentUpon>frmExercicio3.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPrincipal.cs">
+    <Compile Include="Tela\frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPrincipal.Designer.cs">
+    <Compile Include="Tela\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmExercicio2.cs">
+    <Compile Include="Tela\frmExercicio2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmExercicio2.Designer.cs">
+    <Compile Include="Tela\frmExercicio2.Designer.cs">
       <DependentUpon>frmExercicio2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmExercicio3.resx">
+    <EmbeddedResource Include="frmExercicio4.resx">
+      <DependentUpon>frmExercicio4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela\frmExercicio3.resx">
       <DependentUpon>frmExercicio3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPrincipal.resx">
+    <EmbeddedResource Include="Tela\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmExercicio2.resx">
+    <EmbeddedResource Include="Tela\frmExercicio2.resx">
       <DependentUpon>frmExercicio2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
