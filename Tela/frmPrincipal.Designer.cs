@@ -43,6 +43,7 @@
             this.btnExercicio2.TabIndex = 0;
             this.btnExercicio2.Text = "Exercício 2";
             this.btnExercicio2.UseVisualStyleBackColor = true;
+            this.btnExercicio2.Click += new System.EventHandler(this.btnExercicio2_Click);
             // 
             // textBox1
             // 
@@ -61,6 +62,7 @@
             this.btnExercicio3.TabIndex = 2;
             this.btnExercicio3.Text = "Exercício 3";
             this.btnExercicio3.UseVisualStyleBackColor = true;
+            this.btnExercicio3.Click += new System.EventHandler(this.btnExercicio3_Click);
             // 
             // btnExercicio4
             // 
@@ -70,6 +72,7 @@
             this.btnExercicio4.TabIndex = 3;
             this.btnExercicio4.Text = "Exercício 4";
             this.btnExercicio4.UseVisualStyleBackColor = true;
+            this.btnExercicio4.Click += new System.EventHandler(this.btnExercicio4_Click);
             // 
             // frmPrincipal
             // 

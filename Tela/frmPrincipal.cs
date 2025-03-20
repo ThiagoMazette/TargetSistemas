@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TargetSistemas
@@ -15,6 +8,24 @@ namespace TargetSistemas
         public frmPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void btnExercicio2_Click(object sender, EventArgs e)
+        {
+            frmExercicio2 _f = new frmExercicio2();
+            _f.ShowDialog();
+        }
+
+        private void btnExercicio3_Click(object sender, EventArgs e)
+        {
+            frmExercicio3 _f = new frmExercicio3();
+            _f.ShowDialog();
+        }
+
+        private void btnExercicio4_Click(object sender, EventArgs e)
+        {
+            frmExercicio4 _f = new frmExercicio4();
+            _f.ShowDialog();
         }
     }
 }
