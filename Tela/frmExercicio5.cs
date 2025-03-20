@@ -28,5 +28,10 @@ namespace TargetSistemas
                   
             txtInvertido.Text = TextoInvertido;        
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

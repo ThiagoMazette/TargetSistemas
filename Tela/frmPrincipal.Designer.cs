@@ -38,7 +38,7 @@
             // 
             // btnExercicio2
             // 
-            this.btnExercicio2.Location = new System.Drawing.Point(12, 189);
+            this.btnExercicio2.Location = new System.Drawing.Point(112, 179);
             this.btnExercicio2.Name = "btnExercicio2";
             this.btnExercicio2.Size = new System.Drawing.Size(101, 39);
             this.btnExercicio2.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(11, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(302, 137);
@@ -57,7 +57,7 @@
             // 
             // btnExercicio3
             // 
-            this.btnExercicio3.Location = new System.Drawing.Point(12, 246);
+            this.btnExercicio3.Location = new System.Drawing.Point(112, 236);
             this.btnExercicio3.Name = "btnExercicio3";
             this.btnExercicio3.Size = new System.Drawing.Size(101, 39);
             this.btnExercicio3.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             // btnExercicio4
             // 
-            this.btnExercicio4.Location = new System.Drawing.Point(12, 303);
+            this.btnExercicio4.Location = new System.Drawing.Point(112, 293);
             this.btnExercicio4.Name = "btnExercicio4";
             this.btnExercicio4.Size = new System.Drawing.Size(101, 39);
             this.btnExercicio4.TabIndex = 3;
@@ -77,7 +77,7 @@
             // 
             // btnExercicio5
             // 
-            this.btnExercicio5.Location = new System.Drawing.Point(12, 360);
+            this.btnExercicio5.Location = new System.Drawing.Point(112, 350);
             this.btnExercicio5.Name = "btnExercicio5";
             this.btnExercicio5.Size = new System.Drawing.Size(101, 39);
             this.btnExercicio5.TabIndex = 4;
@@ -89,13 +89,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 450);
+            this.ClientSize = new System.Drawing.Size(326, 411);
             this.Controls.Add(this.btnExercicio5);
             this.Controls.Add(this.btnExercicio4);
             this.Controls.Add(this.btnExercicio3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnExercicio2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmPrincipal";

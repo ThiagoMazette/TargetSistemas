@@ -37,6 +37,7 @@
             this.txtMenorFaturamento = new System.Windows.Forms.TextBox();
             this.txtMaiorFaturamento = new System.Windows.Forms.TextBox();
             this.txtNumeroDias = new System.Windows.Forms.TextBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -44,8 +45,8 @@
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(702, 135);
-            this.textBox1.TabIndex = 0;
+            this.textBox1.Size = new System.Drawing.Size(471, 154);
+            this.textBox1.TabIndex = 6;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // btnCalcular
@@ -89,28 +90,39 @@
             // 
             this.txtMenorFaturamento.Location = new System.Drawing.Point(120, 231);
             this.txtMenorFaturamento.Name = "txtMenorFaturamento";
-            this.txtMenorFaturamento.Size = new System.Drawing.Size(100, 20);
-            this.txtMenorFaturamento.TabIndex = 5;
+            this.txtMenorFaturamento.Size = new System.Drawing.Size(90, 20);
+            this.txtMenorFaturamento.TabIndex = 2;
             // 
             // txtMaiorFaturamento
             // 
             this.txtMaiorFaturamento.Location = new System.Drawing.Point(120, 259);
             this.txtMaiorFaturamento.Name = "txtMaiorFaturamento";
-            this.txtMaiorFaturamento.Size = new System.Drawing.Size(100, 20);
-            this.txtMaiorFaturamento.TabIndex = 6;
+            this.txtMaiorFaturamento.Size = new System.Drawing.Size(90, 20);
+            this.txtMaiorFaturamento.TabIndex = 3;
             // 
             // txtNumeroDias
             // 
             this.txtNumeroDias.Location = new System.Drawing.Point(120, 287);
             this.txtNumeroDias.Name = "txtNumeroDias";
-            this.txtNumeroDias.Size = new System.Drawing.Size(100, 20);
-            this.txtNumeroDias.TabIndex = 7;
+            this.txtNumeroDias.Size = new System.Drawing.Size(90, 20);
+            this.txtNumeroDias.TabIndex = 4;
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(417, 283);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(68, 27);
+            this.btnVoltar.TabIndex = 5;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmExercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 450);
+            this.ClientSize = new System.Drawing.Size(497, 319);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.txtNumeroDias);
             this.Controls.Add(this.txtMaiorFaturamento);
             this.Controls.Add(this.txtMenorFaturamento);
@@ -142,5 +154,6 @@
         private System.Windows.Forms.TextBox txtMenorFaturamento;
         private System.Windows.Forms.TextBox txtMaiorFaturamento;
         private System.Windows.Forms.TextBox txtNumeroDias;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

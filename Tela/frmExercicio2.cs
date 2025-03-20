@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace TargetSistemas
@@ -12,6 +13,12 @@ namespace TargetSistemas
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
+            if(txtmskNumero.Text.Length == 0)
+            {
+                MessageBox.Show("Digite um número", "Digite", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txtmskNumero.Focus();
+                return;
+            }
             int a = 0;
             int b = 1;
             int proximo;
@@ -37,6 +44,11 @@ namespace TargetSistemas
             {
                 lblResposta.Text = "O número "+numero+" NÃO pertence à sequência de Fibonacci";
             }
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -35,6 +35,7 @@
             this.btnVerificar = new System.Windows.Forms.Button();
             this.lblResposta = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -43,7 +44,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(575, 109);
-            this.textBox1.TabIndex = 0;
+            this.textBox1.TabIndex = 4;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // label1
@@ -90,11 +91,22 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Resposta:";
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(524, 196);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(68, 27);
+            this.btnVoltar.TabIndex = 3;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // frmExercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 234);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblResposta);
             this.Controls.Add(this.btnVerificar);
@@ -122,5 +134,6 @@
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Label lblResposta;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

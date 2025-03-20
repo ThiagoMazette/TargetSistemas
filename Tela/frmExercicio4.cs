@@ -33,5 +33,10 @@ namespace TargetSistemas
             txtES.Text = percentualES.ToString("F2") + "%";
             txtOutros.Text = percentualOutros.ToString("F2") + "%";
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

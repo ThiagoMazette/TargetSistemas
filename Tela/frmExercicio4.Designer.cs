@@ -41,6 +41,7 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.txtOutros = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -49,7 +50,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(404, 136);
-            this.textBox1.TabIndex = 0;
+            this.textBox1.TabIndex = 8;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // label1
@@ -93,35 +94,35 @@
             this.txtSP.Location = new System.Drawing.Point(78, 185);
             this.txtSP.Name = "txtSP";
             this.txtSP.Size = new System.Drawing.Size(61, 20);
-            this.txtSP.TabIndex = 5;
+            this.txtSP.TabIndex = 2;
             // 
             // txtRJ
             // 
             this.txtRJ.Location = new System.Drawing.Point(78, 210);
             this.txtRJ.Name = "txtRJ";
             this.txtRJ.Size = new System.Drawing.Size(61, 20);
-            this.txtRJ.TabIndex = 7;
+            this.txtRJ.TabIndex = 3;
             // 
             // txtMG
             // 
             this.txtMG.Location = new System.Drawing.Point(78, 235);
             this.txtMG.Name = "txtMG";
             this.txtMG.Size = new System.Drawing.Size(61, 20);
-            this.txtMG.TabIndex = 8;
+            this.txtMG.TabIndex = 4;
             // 
             // txtES
             // 
             this.txtES.Location = new System.Drawing.Point(78, 260);
             this.txtES.Name = "txtES";
             this.txtES.Size = new System.Drawing.Size(61, 20);
-            this.txtES.TabIndex = 9;
+            this.txtES.TabIndex = 5;
             // 
             // btnCalcular
             // 
             this.btnCalcular.Location = new System.Drawing.Point(177, 185);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(81, 37);
-            this.btnCalcular.TabIndex = 10;
+            this.btnCalcular.TabIndex = 1;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
@@ -131,7 +132,7 @@
             this.txtOutros.Location = new System.Drawing.Point(78, 285);
             this.txtOutros.Name = "txtOutros";
             this.txtOutros.Size = new System.Drawing.Size(61, 20);
-            this.txtOutros.TabIndex = 12;
+            this.txtOutros.TabIndex = 6;
             // 
             // label5
             // 
@@ -142,11 +143,22 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Outros:";
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(350, 288);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(68, 27);
+            this.btnVoltar.TabIndex = 7;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // frmExercicio4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(430, 323);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.txtOutros);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnCalcular);
@@ -186,5 +198,6 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.TextBox txtOutros;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }
